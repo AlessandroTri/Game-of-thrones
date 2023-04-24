@@ -1,0 +1,41 @@
+.container_houses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2e2d2d;
+    
+    img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 160px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+  }
+  
+  .list_houses {
+    background-color: #080707;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .list_import {
+    margin-top: 20px;
+  }
+  
+  .list_import p {
+    margin-bottom: 3px;
+  }
+
+  ul {
+    list-style: none;
+}

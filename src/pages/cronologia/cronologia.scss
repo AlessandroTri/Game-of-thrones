@@ -1,0 +1,70 @@
+.imagenes_crono img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000000;
+    margin: 0;
+  }
+  
+  .timeline {
+    display: flex;
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .container_crono {
+    position: relative;
+    background-color: inherit;
+    border-top: 4px solid white;
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .left {
+    left: -25%;
+  }
+
+  .right {
+    left: 25%;
+  }
+
+  .change_age{
+	background-color:#ffffff;
+	border-radius:50%;
+	border:20px solid #ffffff;
+	display:flex;
+	cursor:pointer;
+	color:#010101;
+	font-size:30px;
+ 
+}
+.change_age:hover {
+	background-color:#f0f0f0;
+}
+.change_age:active {
+	position:relative;
+	top:1px;
+}
+
+  

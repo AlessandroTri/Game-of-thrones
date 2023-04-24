@@ -1,0 +1,20 @@
+.title_game {
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img_trono {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
